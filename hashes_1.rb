@@ -62,11 +62,11 @@ p email
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 
-
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.values
 
 
 #-------------------
@@ -116,4 +116,29 @@ p posts[0]
 
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
+
+emails = [
+  {"sender" => "Gauri Joshi",
+  "recepient" => "Amy Holt",
+  "subject" => "Important meeting",
+  "timestamp" => "April 21 9:09AM",
+  "attachments" => true
+},
+{
+  "sender" => "Scar Jo",
+  "recepient" => "The Hulk",
+  "subject" => "Avengers 3.0",
+  "timestamp" => "April 21 9:17AM",
+  "attachments" => false
+},
+{
+  "sender" => "Beyonce",
+  "recepient" => "Kanye West",
+  "subject" => "Stop being ridiculous",
+  "timestamp" => "July 4 10:10AM",
+  "attachments" => true
+}
+]
+
+p emails
 # Then, print the email Array to the Terminal.
